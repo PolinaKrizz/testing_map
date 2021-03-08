@@ -1,11 +1,11 @@
-#include <iostream>
-#include <map>
-
 /****************************************************************************************************/
 /* The application that checks if Ñ++ std::map container implementation complies with the standard. */
 /* It is checking methods insert, erase and find. Use zero return code if test passes,              */
 /* or non-zero  value to indicate test failure.                                                     */
 /****************************************************************************************************/
+
+#include <iostream>
+#include <map>
 
 // insert non-existent element
 // element must be inserted
